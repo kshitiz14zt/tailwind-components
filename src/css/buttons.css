@@ -1,0 +1,25 @@
+@layer components {
+  .btn {
+    @apply transition-colors block py-3 px-6 rounded-[4px] hover:bg-magenta border-0 text-[18px] font-normal text-center md:inline-block ;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white border-primary;
+  }
+
+  .btn-secondary {
+    @apply bg-black text-white border-secondary;
+  }
+
+  .btn-tertiary {
+    @apply bg-white text-black hover:text-white border hover:border-magenta border-secondary;
+  }
+  
+  .btn-large {
+    @apply md:min-w-[340px] ;
+  }
+
+  .btn-arrow {
+    @apply bg-primary text-white w-[47px] h-[47px] p-0 flex justify-center items-center text-left;
+  }
+}

@@ -1,0 +1,24 @@
+/* src/css/main.css */
+@import 'navigation.css';
+@import 'buttons.css';
+@import 'list.css';
+@import 'texts.css';
+@import 'paddings.css';
+@import 'utilities.css';
+@import 'fonts.css';
+@import 'carousel-v2.css';
+@import 'universal.css';
+/* @import 'swiper.css'; */
+/*@import 'margins.css';*/
+/*@import 'paddings.css';*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#mobile-menu.open {
+  transform: translateX(0);
+}
+body.open {
+  overflow: hidden;
+}

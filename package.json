@@ -1,0 +1,43 @@
+{
+	"scripts": {
+		"postinstall": "tailwindcss init -p"
+	},
+	"dependencies": {
+		"postcss": "^8.5.3"
+	},
+	"devDependencies": {
+		"@aegov/design-system": "^2.2.10",
+		"@babel/core": "^7.28.4",
+		"@babel/preset-env": "^7.28.3",
+		"@tailwindcss/forms": "^0.5.10",
+		"@tailwindcss/postcss": "^4.1.5",
+		"@tailwindcss/typography": "^0.5.16",
+		"autoprefixer": "^10.4.21",
+		"babelify": "^10.0.0",
+		"browser-sync": "^3.0.4",
+		"browserify": "^17.0.1",
+		"cssnano": "^7.0.6",
+		"del": "^8.0.0",
+		"gulp": "^5.0.1",
+		"gulp-file-include": "^2.3.0",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-if": "^3.0.0",
+		"gulp-imagemin": "^9.1.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-postcss": "^10.0.0",
+		"gulp-rev": "^11.0.0",
+		"gulp-rev-replace": "^0.4.4",
+		"gulp-sass": "^6.0.1",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-terser": "^2.1.0",
+		"imagemin-mozjpeg": "^10.0.0",
+		"imagemin-optipng": "^8.0.0",
+		"imagemin-svgo": "^11.0.1",
+		"postcss-import": "^16.1.0",
+		"postcss-nested": "^7.0.2",
+		"sass": "^1.87.0",
+		"tailwindcss": "^3.3.5",
+		"vinyl-buffer": "^1.0.1",
+		"vinyl-source-stream": "^2.0.0"
+	}
+}

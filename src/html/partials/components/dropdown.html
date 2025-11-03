@@ -1,0 +1,41 @@
+<div class="bg-black h-20 flex">
+    <div class="text-left flex universal gap-6">
+        <select name="open-dropdown" id="open-dropdown"
+            class="w-44 appearance-none relative bg-[#b68a34] border-4 border-[#f2eccf] rounded-xl text-white px-3 py-2 mt-4 ml-4 focus:outline-none font-medium">
+            <option value="dropdown">Open dropdown</option>
+            <option value="Edit-my-profile">Edit my profile</option>
+            <option value="package">My packages</option>
+            <hr>
+            <option value="account">Account settiings</option>
+            <option value="email">Email notifications</option>
+            <option value="token">Access tokens</option>
+            <hr>
+            <option value="logout">Logout</option>
+        </select>
+        <span class="absolute top-[28px] left-[10.6rem] pointer-events-none ">
+            <i class="fa-solid fa-angle-down text-white "></i>
+        </span>
+    </div>
+
+    <div class="relative inline-block text-left ml-10 mt-4">
+        <button
+          class="inline-flex font-medium justify-between w-52 bg-[#b68a34] text-white px-4 py-2 rounded-lg shadow border-4 border-[#f2eccf] focus:outline-none">
+          Open dropdown
+          <i class="fa-solid fa-angle-down text-white top-4 absolute left-[11.5rem]"></i>
+        </button>
+      
+        <div
+          class="absolute w-52 bg-white rounded-xl shadow-lg border-t-0 border-gray-100 z-10">
+          <ul class="text-gray-700">
+            <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">Edit my profile</li>
+            <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">My packages</li>
+            <hr class="text-[#f2eccf]">
+            <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">Account settings</li>
+            <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">Email notifications</li>
+            <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">Access tokens</li>
+            <hr class="my-1 text-[#f2eccf]">
+            <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">Logout</li>
+          </ul>
+        </div>
+      </div>
+</div>

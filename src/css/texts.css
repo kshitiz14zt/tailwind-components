@@ -1,0 +1,51 @@
+@layer components {
+  *,
+  :after,
+  :before {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  .headline-1,.heading-2,.heading-3,.headline-4,.headline-5,.headline-6{
+  
+  }
+  .headline-1 {
+    @apply text-64 mb-4 lg:mb-8 leading-normal md:leading-[1.25] font-medium uppercase;
+  }
+  .headline-2 {
+    @apply text-36 leading-[1.46] md:leading-[1.38] font-normal uppercase;
+  }
+  .headline-3,
+  .headline-4 {
+    @apply text-32 leading-[1.83] md:leading-[1.56] uppercase;
+  }
+  .heading-3 {
+    @apply font-normal;
+  }
+  .headline-4 {
+    @apply font-semibold;
+  }
+  .headline-5 {
+    @apply text-[20px] leading-[38px] font-normal uppercase;
+  }
+
+  .headline-5-bolder{
+    @apply headline-5 font-semibold pt-5 pb-[30px]
+  }
+  
+  .headline-6 {
+    @apply text-16 leading-[34px] font-semibold uppercase;
+  }
+  .bodytext, p {
+    @apply text-[18px] leading-[28px] font-normal mb-5;
+  }
+
+  .bodytext-small{
+    @apply text-[14px] leading-[24px] font-normal mb-5;
+  }
+
+  .link-inside-text {
+    @apply font-semibold underline hover:no-underline text-primary;
+  }
+
+}

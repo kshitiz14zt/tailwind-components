@@ -1,0 +1,188 @@
+<!-- START: Events Components-->
+<section class="frame-space-before-large frame-space-after-large">
+    <div class="container md:max-w-full-x mx-auto px-5">
+        <h3 class="headline-3 leading-normal text-primary grid grid-cols-1 text-center-x lg:text-left mb-7">
+            Termine der Psychotherapietage
+        </h3>
+
+        <!--// For Desktop //-->
+        <div class="hidden md:block">
+            <div
+                class="flex justify-between text-primary gap-2 lg:gap-5 group mb-7 hover:[&>*]:text-white hover:[&>*]:bg-primary [&>*]:text-primary [&>*]:border-primary [&>*]:text-left [&>*]:border-2 [&>*]:rounded-md [&>*]:px-2 [&>*]:lg:px-5 [&>*]:py-5 [&>*]:flex-grow [&>*]:transition-colors">
+                <button class="tab bg-primary !text-white font-bold" data-tab="tab1">
+                    Sonntag<br />
+                    20. Oktober 2024
+                </button>
+                <button class="tab" data-tab="tab2">
+                    Montag,<br />
+                    21. Oktober 2024
+                </button>
+                <button class="tab" data-tab="tab3">
+                    Dienstag,<br />
+                    22. Oktober 2024
+                </button>
+                <button class="tab" data-tab="tab4">
+                    Mittwoch,<br />
+                    23. Oktober 2024
+                </button>
+                <button class="tab" data-tab="tab5">
+                    Donnerstag,<br />
+                    24. Oktober 2024
+                </button>
+            </div>
+
+            <div class="tab-content tab1-content">
+                <div
+                    class="gap-4 flex flex-col [&>div]:flex [&>div]:flex-grow [&>div]:bg-quaternary [&>div]:text-[20px] [&>div]:py-6">
+                    <div class="[&>*]:px-2 [&>*]:lg:px-5">
+                        <div class="w-1/5">13:30 Uhr</div>
+                        <div class="w-3/5">
+                            „Arbeiten mit und am epistemischen Vertrauen – ein neuer Blick auf
+                            die therapeutische Beziehung“
+                        </div>
+                        <div class="w-1/5 border-l">G. Heuft, Münster</div>
+                    </div>
+                    <div class="[&>*]:px-2 [&>*]:lg:px-5">
+                        <div class="w-1/5">19:30 Uhr</div>
+                        <div class="w-3/5">Orgelkonzert - Bob Dylan - Abend</div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content tab2-content" style="display: none">
+                <div
+                    class="gap-4 flex flex-col [&>div]:flex [&>div]:flex-grow [&>div]:bg-quaternary [&>div]:text-[20px] [&>div]:py-6">
+                    <div class="[&>*]:px-2 [&>*]:lg:px-5">
+                        <div class="w-1/5">14:00 Uhr</div>
+                        <div class="w-3/5">
+                            Session Title for Monday<br />21. Oktober 2024
+                        </div>
+                        <div class="w-1/5 border-l">Speaker Name</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content tab3-content" style="display: none">
+                <div
+                    class="gap-4 flex flex-col [&>div]:flex [&>div]:flex-grow [&>div]:bg-quaternary [&>div]:text-[20px] [&>div]:py-6">
+                    <div class="[&>*]:px-2 [&>*]:lg:px-5">
+                        <div class="w-1/5">14:00 Uhr</div>
+                        <div class="w-3/5">
+                            Session Title for Monday<br />22. Oktober 2024
+                        </div>
+                        <div class="w-1/5 border-l">Speaker Name</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content tab4-content" style="display: none">
+                <div
+                    class="gap-4 flex flex-col [&>div]:flex [&>div]:flex-grow [&>div]:bg-quaternary [&>div]:text-[20px] [&>div]:py-6">
+                    <div class="[&>*]:px-2 [&>*]:lg:px-5">
+                        <div class="w-1/5">14:00 Uhr</div>
+                        <div class="w-3/5">
+                            Session Title for Monday<br />23. Oktober 2024
+                        </div>
+                        <div class="w-1/5 border-l">Speaker Name</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content tab5-content" style="display: none">
+                <div class="gap-4 flex flex-col">
+                    <div class="flex flex-grow bg-quaternary text-[20px] py-6 [&>*]:px-2 [&>*]:lg:px-5">
+                        <div class="w-1/5">14:00 Uhr</div>
+                        <div class="w-3/5">
+                            Session Title for Monday<br />24. Oktober 2024
+                        </div>
+                        <div class="w-1/5 border-l">Speaker Name</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="md:hidden">
+            <div class="accordion space-y-3">
+                <div class="accordion-item [&>*]:transition">
+                    <button class="accordion-header w-full text-primary border-2 border-primary p-5 text-left rounded">
+                        Sonntag<br />
+                        20. Oktober 2024
+                    </button>
+                    <div class="accordion-content hidden space-y-3">
+                        <div class="p-6 bg-quaternary space-y-4 rounded">
+                            <div>14:00 Uhr</div>
+                            <div>Session Title for Monday<br />22. Oktober 2024</div>
+                            <div class="border-t inline-block w-28 h-[1px] relative -bottom-1"></div>
+                            <div>Speaker Name</div>
+                        </div>
+                        <div class="p-6 bg-quaternary space-y-4 rounded">
+                            <div>14:00 Uhr</div>
+                            <div>Session Title for Monday<br />22. Oktober 2024</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item [&>*]:transition">
+                    <button class="accordion-header w-full text-primary border-2 border-primary p-5 text-left rounded">
+                        Montag,<br />
+                        21. Oktober 2024
+                    </button>
+
+                    <div class="accordion-content hidden space-y-3">
+                        <div class="p-6 bg-quaternary space-y-4 rounded">
+                        <div>14:00 Uhr</div>
+                        <div>Session Title for Monday<br />22. Oktober 2024</div>
+                        <div class="border-t inline-block w-28 h-[1px] relative -bottom-1"></div>
+                        <div>Speaker Name</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item [&>*]:transition">
+                    <button class="accordion-header w-full text-primary border-2 border-primary p-5 text-left rounded">
+                        Dienstag,<br />
+                        22. Oktober 2024
+                    </button>
+
+                    <div class="accordion-content hidden space-y-3">
+                        <div class="p-6 bg-quaternary space-y-4 rounded">
+                        <div>14:00 Uhr</div>
+                        <div>Session Title for Monday<br />22. Oktober 2024</div>
+                        <div class="border-t inline-block w-28 h-[1px] relative -bottom-1"></div>
+                        <div>Speaker Name</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item [&>*]:transition">
+                    <button class="accordion-header w-full text-primary border-2 border-primary p-5 text-left rounded">
+                        Mittwoch,<br />
+                        23. Oktober 2024
+                    </button>
+
+                    <div class="accordion-content hidden space-y-3">
+                        <div class="p-6 bg-quaternary space-y-4 rounded">
+                            <div>This is the content of Accordion Item 3.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item [&>*]:transition">
+                    <button class="accordion-header w-full text-primary border-2 border-primary p-5 text-left rounded">
+                        Donnerstag,<br />
+                        24. Oktober 2024
+                    </button>
+
+                    <div class="accordion-content hidden space-y-3">
+                        <div class="p-6 bg-quaternary space-y-4 rounded">
+                            <div>This is the content of Accordion Item 3.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="pt-6">
+            <a href="#" class="bg-primary px-10 md:inline-block btn text-white">Zu Online-Anmeldung</a>
+        </div>
+    </div>
+</section>
