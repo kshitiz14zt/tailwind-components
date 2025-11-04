@@ -1,4 +1,4 @@
-<div class="bg-black h-20 flex">
+<!-- <div class="bg-black h-20 flex">
     <div class="text-left flex universal gap-6">
         <select name="open-dropdown" id="open-dropdown"
             class="w-44 appearance-none relative bg-[#b68a34] border-4 border-[#f2eccf] rounded-xl text-white px-3 py-2 mt-4 ml-4 focus:outline-none font-medium">
@@ -38,4 +38,30 @@
           </ul>
         </div>
       </div>
+</div> -->
+
+<div  class="relative justify-center m-36 " id="dropdown">
+  <div onclick="toggleDropdown()" class="border-solid border-gray border-[1px] px-5 py-2 rounded cursor-pointer font-bold flex justify-between w-[200px] bg-white shadow-sm">
+    Options
+    <i class="fa-solid fa-angle-down text-black pt-[6px]"></i>
+    
+  </div>
+  <div class="rounded bg-white border-gray border-[1px] absolute w-[400px] shadow-md top-[50px] hidden"  id="dropdown">
+    <div class="cursor-pointer hover:bg-gray p-4">Edit my profile</div>
+    <div class="cursor-pointer hover:bg-gray p-4">My packages</div>
+    <div class="cursor-pointer hover:bg-gray p-4">Account settings</div>
+    <hr>
+    <div class="cursor-pointer hover:bg-gray p-4">Email notifications</div>
+    <div class="cursor-pointer hover:bg-gray p-4">Access tokens</div>
+    <hr>
+    <div class="cursor-pointer hover:bg-gray p-4">logout</div>
+
+  </div>
 </div>
+
+<script>
+  function toggleDropdown(){
+    let dropdown = document.querySelector('#dropdownButton #dropdown');
+    dropdown.classList.toggle('hidden');
+  }
+</script>
