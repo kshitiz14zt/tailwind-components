@@ -1,41 +1,94 @@
-<div class="bg-black h-20 flex">
-    <div class="text-left flex universal gap-6">
-        <select name="open-dropdown" id="open-dropdown"
-            class="w-44 appearance-none relative bg-[#b68a34] border-4 border-[#f2eccf] rounded-xl text-white px-3 py-2 mt-4 ml-4 focus:outline-none font-medium">
-            <option value="dropdown">Open dropdown</option>
-            <option value="Edit-my-profile">Edit my profile</option>
-            <option value="package">My packages</option>
-            <hr>
-            <option value="account">Account settiings</option>
-            <option value="email">Email notifications</option>
-            <option value="token">Access tokens</option>
-            <hr>
-            <option value="logout">Logout</option>
-        </select>
-        <span class="absolute top-[28px] left-[10.6rem] pointer-events-none ">
-            <i class="fa-solid fa-angle-down text-white "></i>
-        </span>
+<div class="bg-[#ceccc7] h-auto flex flex-col lg:flex-row gap-6 md:gap-24">
+  <!-- 1st variant -->
+  <div class="text-left flex universal gap-20">
+    <div>
+      <select name="open-dropdown" id="open-dropdown"
+        class="w-52 appearance-none relative bg-[#b68a34] border-4 border-[#f2eccf] rounded-xl text-white px-3 py-2 mt-4 ml-4 md:ml-4 focus:outline-none font-medium">
+        <option value="dropdown">Select</option>
+        <option value="Edit-my-profile">Edit my profile</option>
+        <option value="package">My packages</option>
+        <hr />
+        <option value="account">Account settings</option>
+        <option value="email">Email notifications</option>
+        <option value="token">Access tokens</option>
+        <hr />
+        <option value="logout">Logout</option>
+      </select>
     </div>
+    <span class="absolute top-[30px] left-[11.7em] pointer-events-none">
+      <i class="fa-solid fa-angle-down text-white"></i>
+    </span>
+  </div>
 
-    <div class="relative inline-block text-left ml-10 mt-4">
-        <button
-          class="inline-flex font-medium justify-between w-52 bg-[#b68a34] text-white px-4 py-2 rounded-lg shadow border-4 border-[#f2eccf] focus:outline-none">
-          Open dropdown
-          <i class="fa-solid fa-angle-down text-white top-4 absolute left-[11.5rem]"></i>
-        </button>
-      
-        <div
-          class="absolute w-52 bg-white rounded-xl shadow-lg border-t-0 border-gray-100 z-10">
-          <ul class="text-gray-700">
-            <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">Edit my profile</li>
-            <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">My packages</li>
-            <hr class="text-[#f2eccf]">
-            <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">Account settings</li>
-            <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">Email notifications</li>
-            <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">Access tokens</li>
-            <hr class="my-1 text-[#f2eccf]">
-            <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">Logout</li> 
-          </ul>
-        </div>
+  <!-- 2nd variant -->
+  <div class="relative inline-block text-left mt-4 ml-4">
+    <input type="checkbox" id="down" class="peer hidden" />
+    <label for="down"
+      class="inline-flex font-medium justify-between w-52 bg-[#b68a34] text-white px-4 py-2 rounded-lg shadow border-4 border-[#f2eccf] cursor-pointer">
+      Open dropdown
+      <i class="fa-solid fa-angle-down text-white ml-2 mt-[3px]"></i>
+    </label>
+    <div class="absolute w-52 bg-white rounded-md shadow-md border border-[#f2eccf] z-10 hidden peer-checked:block">
+      <ul class="text-gray-700">
+        <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">
+          <a href="dropdown.html">Edit my profile</a>
+        </li>
+        <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">
+          <a href="select.html">My packages</a>
+        </li>
+        <hr class="text-[#f2eccf]" />
+        <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">
+          <a href="button.html">Account settings</a>
+        </li>
+        <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">
+          <a href="description.html">Email notifications</a>
+        </li>
+        <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">
+          <a href="card.html">Access tokens</a>
+        </li>
+        <hr class="my-1 text-[#f2eccf]" />
+        <li class="px-4 py-2 cursor-pointer text-[#957531] font-medium">
+          <a href="#">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 3rd variant -->
+  <div class="relative justify-center m-[1em] select-none" id="dropdownButton">
+    <div onclick="toggleDropdown()"
+      class="border-4 border-[#f2eccf] rounded-xl px-5 py-2 text-white cursor-pointer font-medium flex justify-between w-52 bg-[#b68a34] shadow-sm">
+      Options
+      <i class="fa-solid fa-angle-down text-white pt-[6px]"></i>
+    </div>
+    <div class="rounded bg-white absolute w-52 shadow-md hidden" id="dropdown">
+      <div class="cursor-pointer p-4 text-[#957531] font-medium">
+        <a href="dropdown.html">Edit my profile</a>
       </div>
+      <div class="cursor-pointer p-4 text-[#957531] font-medium">
+        <a href="select.html">My packages</a>
+      </div>
+      <hr class="text-[#f2eccf]" />
+      <div class="cursor-pointer p-4 text-[#957531] font-medium">
+        <a href="button.html">Account settings</a>
+      </div>
+      <div class="cursor-pointer p-4 text-[#957531] font-medium">
+        <a href="description.html">Email notifications</a>
+      </div>
+      <div class="cursor-pointer p-4 text-[#957531] font-medium">
+        <a href="card.html">Access tokens</a>
+      </div>
+      <hr class="text-[#f2eccf]" />
+      <div class="cursor-pointer p-4 text-[#957531] font-medium">
+        <a href="#">Logout</a>
+      </div>
+    </div>
+  </div>
 </div>
+
+<script>
+  function toggleDropdown() {
+    let dropdown = document.querySelector('#dropdownButton #dropdown');
+    dropdown.classList.toggle('hidden');
+  }
+</script>
