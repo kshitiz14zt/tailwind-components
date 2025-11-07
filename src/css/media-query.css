@@ -1,0 +1,22 @@
+@media screen  and (width:1024px) {
+    .card-width{
+        width: 40% !important;
+    }
+}
+
+@media screen  and (width:1280px) {
+    .card-width{
+        width: 32% !important;
+    }
+}
+
+@media screen  and (min-width:300px) and (max-width:400px) {
+    .text-size-p{
+        font-size: 13px !important;
+        line-height: 22px !important;
+    }
+
+    .text-size-title{
+        font-size: 24px !important;
+    }
+}
