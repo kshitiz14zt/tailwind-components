@@ -1,0 +1,5 @@
+
+.accordion-input:checked + .accordion-label .accordion-icon {
+    transform: rotate(180deg);
+    transition: all 0.3s linear;
+}
