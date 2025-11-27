@@ -16,6 +16,8 @@ module.exports = {
       },
       fontFamily: {
         montserrat: "'Montserrat', 'sans-serif'",
+        Inter:"'Inter', 'Helvetica Neue'",
+        Roboto:"'Roboto'"
       },
       colors: {
         primary: '#bc082e',

@@ -1,0 +1,19 @@
+.card-glow {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .card-glow:hover {
+    --tw-shadow-color: rgb(182 138 53 / 0.3);
+    box-shadow: 0 20px 25px -5px var(--tw-shadow-color),
+                0 8px 10px -6px var(--tw-shadow-color);
+    transform: translateY(-5px);
+  }
+  
+  /* Slick spacing */
+  .slick-slide {
+    margin: 0 10px;
+  }
+  
+  .slick-slider {
+    margin: 0 -10px;
+  }
