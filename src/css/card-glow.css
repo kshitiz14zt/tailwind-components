@@ -15,5 +15,44 @@
   }
   
   .slick-slider {
-    margin: 0 -10px;
+    margin: 0;
   }
+
+.slick-dots {
+  display: flex !important;
+  justify-content: center;
+  gap: 25px;
+  bottom: -6em;
+}
+
+.slick-dots li button:before {
+  content: "";
+  opacity: 1 !important;
+  font-size: 0 !important;
+}
+
+.slick-dots li button {
+  width: 14px;
+  height: 14px;
+  background: #c6c6c6; 
+  border-radius: 50%;
+  padding: 0;
+}
+
+.slick-dots li.slick-active button {
+  position: relative;
+  background: #9e8348;
+}
+
+.slick-dots li.slick-active button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 28px;   
+  height: 28px;
+  background: rgba(212, 191, 142, 0.3); 
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
