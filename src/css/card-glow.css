@@ -11,7 +11,8 @@
   
   /* Slick spacing */
   .slick-slide {
-    margin: 0 10px;
+    margin: 16px 6px;
+    /* margin-right: 5px; */
   }
   
   .slick-slider {
