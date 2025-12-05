@@ -1,4 +1,4 @@
-input[type="checkbox"] {
+input[id="filter"] {
     appearance: none;
     width: 18px;
     height: 18px;
@@ -7,13 +7,13 @@ input[type="checkbox"] {
     cursor: pointer;
   }
   
-  input[type="checkbox"]:checked {
+  input[ id="filter"]:checked {
     background-color: #92722a;
     position: relative;
     border: 0;
   }
 
-  input[type="checkbox"]:checked::after {
+  input[ id="filter"]:checked::after {
     color: #fff;
     content: "✓";
     font-size: 14px;
@@ -22,7 +22,7 @@ input[type="checkbox"] {
     top: -1px;
   }
 
-  input[type="radio"] {
+  input[ id="fcomponent"] {
     appearance: none;
     width: 18px;
     height: 18px;
@@ -32,11 +32,11 @@ input[type="checkbox"] {
     position: relative;
   }
   
-  input[type="radio"]:checked {
+  input[ id="fcomponent"]:checked {
     border-color: #92722a;
   }
   
-  input[type="radio"]:checked::after {
+  input[ id="fcomponent"]:checked::after {
     background-color: #92722a;
     border-radius: 50%;
     content: "";
