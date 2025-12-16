@@ -1,3 +1,36 @@
-.border-yellow{
-  @apply  border-[#c4ae6e];
+/* Border colors */
+.border-yellow {
+  @apply border-[#c4ae6e];
+}
+
+.border-dirt-brown {
+  @apply border-[#8b662d];
+}
+
+.border-mercury {
+  @apply border-[#e5e5e5];
+}
+
+.border-stonewall {
+  @apply border-[#888a6e];
+}
+
+.border-eggshell {
+  @apply border-[#eee6cc];
+}
+
+.text-artichoke {
+  @apply text-[#9a9475];
+}
+
+.text-crocodile {
+  @apply text-[#7a6c54];
+}
+
+.bg-dirt-brown {
+  @apply bg-[#8b662d];
+}
+
+.bg-eggshell {
+  @apply bg-[#eee6cc];
 }
