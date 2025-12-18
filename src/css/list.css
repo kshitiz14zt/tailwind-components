@@ -1,5 +1,0 @@
-@layer components {
-  .ordered-list {
-    @apply font-[17px] list-decimal pl-5 space-y-4 mb-8;
-  }
-}

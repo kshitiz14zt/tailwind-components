@@ -1,19 +1,20 @@
 /* src/css/main.css */
-@import 'navigation.css';
-@import 'buttons.css';
-@import 'list.css';
-@import 'texts.css';
-@import 'paddings.css';
-@import 'utilities.css';
+/* @import 'navigation.css'; */
+/* @import 'buttons.css'; */
+/* @import 'list.css'; */
+/* @import 'texts.css'; */
+/* @import 'paddings.css'; */
+/* @import 'utilities.css'; */
 @import 'fonts.css';
-@import 'carousel-v2.css';
-@import 'universal.css';
+/* @import 'carousel-v2.css'; */
+/* @import 'universal.css'; */
 @import  'media-query.css';
 @import 'rotate.css';
 @import 'card-glow.css';
 @import 'input-type.css';
 @import 'tailwind-paddings.css';
 @import 'color.css';
+@import 'active.css';
 /* @import 'swiper.css'; */
 /*@import 'margins.css';*/
 /*@import 'paddings.css';*/
