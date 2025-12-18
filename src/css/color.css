@@ -34,3 +34,36 @@
 .bg-eggshell {
   @apply bg-[#eee6cc];
 }
+
+@layer utilities {
+  /* tab text default */
+  .tab-text {
+    @apply text-[#9aa1af];
+  }
+
+  /* tab text hover */
+  .tab-text-hover {
+    @apply hover:text-[#2c7fff];
+  }
+
+  /* tab icon default */
+  .tab-icon {
+    @apply text-[#9aa1af];
+  }
+
+  /* tab icon hover */
+  .tab-icon-hover {
+    @apply group-hover:text-[#2c7fff];
+  }
+
+  /* disabled text */
+  .tab-text-disabled {
+    @apply text-gray cursor-not-allowed;
+  }
+
+  /* tab content text */
+  .tab-content-text {
+    @apply text-white;
+  }
+}
+
