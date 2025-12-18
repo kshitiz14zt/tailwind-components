@@ -1,0 +1,19 @@
+@layer components {
+
+   /* ACTIVE TEXT + BORDER */
+   .peer\/tab1:checked ~ .tabs label[for="tab1"],
+   .peer\/tab2:checked ~ .tabs label[for="tab2"],
+   .peer\/tab3:checked ~ .tabs label[for="tab3"],
+   .peer\/tab4:checked ~ .tabs label[for="tab4"] {
+     @apply text-[#2c7fff] border-b border-[#2c7fff];
+   }
+ 
+   /* ACTIVE SVG COLOR */
+   .peer\/tab1:checked ~ .tabs label[for="tab1"] svg,
+   .peer\/tab2:checked ~ .tabs label[for="tab2"] svg,
+   .peer\/tab3:checked ~ .tabs label[for="tab3"] svg,
+   .peer\/tab4:checked ~ .tabs label[for="tab4"] svg {
+     @apply text-[#2c7fff];
+   }
+ }
+ 
