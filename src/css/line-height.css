@@ -1,0 +1,7 @@
+.leading-34{
+    @apply leading-[34px];
+}
+
+.leading-42{
+    @apply leading-[42px];
+}
