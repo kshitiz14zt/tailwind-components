@@ -35,6 +35,22 @@
   @apply bg-[#eee6cc];
 }
 
+.text-monsoon{
+  @apply text-[#8D8C8E];
+}
+
+.text-mercury{
+  @apply text-[#e6e6e6];
+}
+
+.text-silk{
+  @apply text-[#bcb095];
+}
+
+.text-shadow{
+  @apply text-[#8b7752] fill-[#8b7752];
+}
+
 @layer utilities {
   /* tab text default */
   .tab-text {

@@ -1,0 +1,15 @@
+.blog-width{
+    @apply  md:w-[70%] lg:w-[24%];
+}
+
+.w-74{
+  @apply  w-[74%];
+}
+
+.w-80{
+    @apply  w-[80%];
+}
+
+.width-26{
+    @apply w-[26px];
+}

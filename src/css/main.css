@@ -15,6 +15,9 @@
 @import 'tailwind-paddings.css';
 @import 'color.css';
 @import 'active.css';
+@import 'width.css';
+@import 'text.css';
+@import 'line-height.css';
 /* @import 'swiper.css'; */
 /*@import 'margins.css';*/
 /*@import 'paddings.css';*/
